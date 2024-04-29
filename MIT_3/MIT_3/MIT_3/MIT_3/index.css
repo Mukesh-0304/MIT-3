@@ -1,0 +1,88 @@
+body{
+    margin: 0%;
+    padding:0%;
+}
+.container{
+    padding: 0%;
+    background-image: url(./images/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color:  hsl(0, 100%, 74%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.flex-container{
+    display: flex;
+    gap: 40px;
+}
+.flex-container-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+}
+h1{
+    color: white;
+   font-size: 50px;
+}
+.para{
+    color: white;
+    width: 390px;
+}
+#demo{
+    margin: 0%;
+}
+.flex-container-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.free{
+    margin: 0%;
+    width: 400px;
+    color: white;
+    height: 40px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    
+}
+.bottom{
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  40px;
+    border-radius: 10px;
+}
+input{
+    margin-bottom: 20px;
+    width: 370px;
+    padding-left:30px ;
+    height: 40px; 
+    border-radius: 5px;  
+    border: solid rgb(228, 228, 228);
+}
+.trial{
+    margin: 0%;
+    width: 405px;
+    color: white;
+    height: 50px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: hsl(154, 59%, 51%);
+}
+.button{
+    color: gray;
+    font-size: 14px;
+}
+span{
+    color: orangered;
+}
